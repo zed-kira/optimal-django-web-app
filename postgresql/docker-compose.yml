@@ -15,6 +15,7 @@ services:
       - 8000:8000
 
     environment:
+      - SECRET_KEY=h0$$mzfm=818osja*7vz$$jn)2zh%2zm#23u-38o980jc3^gcok
       - POSTGRES_NAME=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
